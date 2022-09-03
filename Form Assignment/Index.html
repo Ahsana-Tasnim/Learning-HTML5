@@ -1,0 +1,56 @@
+<!--Ahsana Tasnim
+18 July, 2021-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="formAssignment.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form>
+            <fieldset>
+                <legend>My Info</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name">
+                <br>
+
+                <label for="telephone">Telephone:</label>
+                <input type="tel" id="mobile" name="mobile" maxlength="10" placeholder="Your telephone number">
+                <br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Your city">
+                <br>
+
+                <label for="country">Country:</label>
+                <select size="1" name="country" id="country">
+                    <option value="homecountry">Select your home country</option>
+                    <option value="canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="other" selected>Other</option>
+                </select>
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" id="rdo0" name="gender" value="male">Male
+                <input type="radio" id="rdo1" name="gender" value="female">Female
+                <input type="radio" id="rdo2" name="gender" value="other" checked>Other
+                <br>
+
+                <label for="bday">Date of Birth:</label>
+                <input type="date" id="bday" name="bday" value="2020-10-20">
+                <input type="time" id="btime" name="btime">
+                <br>
+
+                <input type="submit" value="Send my info!">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

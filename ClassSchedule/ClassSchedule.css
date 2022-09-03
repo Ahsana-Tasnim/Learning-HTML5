@@ -1,0 +1,56 @@
+body {
+    background-image: radial-gradient(rgb(134, 134, 248), white);
+    width: 60%;
+    margin: auto;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(255, 235, 246);
+}
+
+.headingcoloumn{
+    color: rgb(131, 5, 68) ;
+}
+
+.heading-row {
+    color: lightslategrey;
+}
+
+table {
+    border: 3px rgb(156, 195, 245);
+    border-radius: 10px;
+    border-style:outset;
+    padding: 3px;
+    width: auto;
+    margin: auto;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+    padding-bottom: 10px;
+    color: rgb(192, 11, 99);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+th, td {
+    border: 1px solid rgb(141, 0, 146);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(41, 49, 160);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subjectPink {
+    background-image:linear-gradient(#ff8585, white);
+}
+
+.subjectGreen {
+    background-image:linear-gradient(rgb(39, 207, 137), white);
+}

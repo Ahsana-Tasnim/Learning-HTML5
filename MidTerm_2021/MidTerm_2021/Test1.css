@@ -1,0 +1,58 @@
+body {
+    background-color: #C9B79C;
+    font-family: Verdana, Arial, sans-serif;
+    color: #342A21;
+}
+#top {
+    background-color: #71816D;
+    padding: 50px;
+    text-align: center;
+    border-radius: 1%;
+    border-style: solid;
+    border-color: #000;
+}
+header {
+    text-align: center;
+}
+
+#wrapper {
+    background-color: #F1E0C5 ;
+    width: 80%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-style: solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+nav{
+    text-align: center;
+    padding: 1.5em;
+    font-weight: bold;
+}
+a:link {
+   color: #342A21;
+}
+.solid {
+    border-top: 2px;
+    border-color: #71816D;
+}
+.img {
+    float: right;
+    width: 30%;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #000;
+}
+.restaurant {
+    font-weight: bold;
+    font-style: italic;
+}
+footer {
+    background-color: #71816D;
+    text-align: center;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: #000;
+    font-weight: bold;
+}
